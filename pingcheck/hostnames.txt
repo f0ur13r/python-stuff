@@ -1,0 +1,6 @@
+# hostnames separated with new lines
+# lines starting with # are ignored
+host1
+host2
+#host3
+host4
