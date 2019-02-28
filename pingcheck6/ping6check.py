@@ -11,6 +11,8 @@ def ping(hostname):
           print('\x1b[6;30;42m' + 'Success!' + '\x1b[0m')
         elif result ==1:
           print('\x1b[6;30;41m' + 'Not reachable!' + '\x1b[0m')
+        elif err.decode("utf-8").endswith('No address associated with hostname\n'):
+          print('\x1b[6;30;43m' + 'No address associated with hostname' + '\x1b[0m')
         else:
           print('\x1b[6;30;43m' + 'Unknown error!' + '\x1b[0m')
 
