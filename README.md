@@ -2,4 +2,4 @@
 
 # python scripts
 
-ping6check
+[ping6check](https://github.com/f0ur13r/python-stuff/tree/master/pingcheck6) - Execute ping6 over a list of hosts
