@@ -2,5 +2,6 @@
 # lines starting with # are ignored
 host1
 host2
+www.google.com
 #host3
 host4
